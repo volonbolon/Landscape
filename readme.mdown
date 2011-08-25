@@ -1,0 +1,3 @@
+Little toy demo for mixing orientations in iOS. You can see more at: 
+
+[Mixing Interface Orientation on iPhone](http://volonbolon.net/post/601078328/mixing-interface-orientation-on-iphone)

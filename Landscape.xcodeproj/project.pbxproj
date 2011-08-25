@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0D30856140672FC00B06D7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D30855140672FC00B06D7A /* UIKit.framework */; };
+		B0D30858140672FC00B06D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D30857140672FC00B06D7A /* Foundation.framework */; };
+		B0D3085A140672FC00B06D7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D30859140672FC00B06D7A /* CoreGraphics.framework */; };
+		B0D30860140672FC00B06D7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0D3085E140672FC00B06D7A /* InfoPlist.strings */; };
+		B0D30862140672FC00B06D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30861140672FC00B06D7A /* main.m */; };
+		B0D30866140672FC00B06D7A /* LandscapeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30865140672FC00B06D7A /* LandscapeAppDelegate.m */; };
+		B0D30869140672FC00B06D7A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0D30867140672FC00B06D7A /* MainWindow.xib */; };
+		B0D3086C140672FC00B06D7A /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D3086B140672FC00B06D7A /* LandscapeViewController.m */; };
+		B0D3086F140672FC00B06D7A /* LandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0D3086D140672FC00B06D7A /* LandscapeViewController.xib */; };
+		B0D30877140672FC00B06D7A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D30876140672FC00B06D7A /* SenTestingKit.framework */; };
+		B0D30878140672FC00B06D7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D30855140672FC00B06D7A /* UIKit.framework */; };
+		B0D30879140672FC00B06D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D30857140672FC00B06D7A /* Foundation.framework */; };
+		B0D3087A140672FC00B06D7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D30859140672FC00B06D7A /* CoreGraphics.framework */; };
+		B0D30882140672FC00B06D7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0D30880140672FC00B06D7A /* InfoPlist.strings */; };
+		B0D30884140672FC00B06D7A /* LandscapeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B0D30883140672FC00B06D7A /* LandscapeTests.h */; };
+		B0D30886140672FC00B06D7A /* LandscapeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30885140672FC00B06D7A /* LandscapeTests.m */; };
+		B0D30892140676C500B06D7A /* PortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D30890140676C500B06D7A /* PortraitViewController.m */; };
+		B0D30893140676C500B06D7A /* PortraitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0D30891140676C500B06D7A /* PortraitViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0D3087B140672FC00B06D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D30848140672FC00B06D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D30850140672FC00B06D7A;
+			remoteInfo = Landscape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0D30851140672FC00B06D7A /* Landscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D30855140672FC00B06D7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0D30857140672FC00B06D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0D30859140672FC00B06D7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0D3085D140672FC00B06D7A /* Landscape-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Landscape-Info.plist"; sourceTree = "<group>"; };
+		B0D3085F140672FC00B06D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0D30861140672FC00B06D7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0D30863140672FC00B06D7A /* Landscape-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Landscape-Prefix.pch"; sourceTree = "<group>"; };
+		B0D30864140672FC00B06D7A /* LandscapeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapeAppDelegate.h; sourceTree = "<group>"; };
+		B0D30865140672FC00B06D7A /* LandscapeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeAppDelegate.m; sourceTree = "<group>"; };
+		B0D30868140672FC00B06D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B0D3086A140672FC00B06D7A /* LandscapeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		B0D3086B140672FC00B06D7A /* LandscapeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		B0D3086E140672FC00B06D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LandscapeViewController.xib; sourceTree = "<group>"; };
+		B0D30875140672FC00B06D7A /* LandscapeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandscapeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D30876140672FC00B06D7A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B0D3087F140672FC00B06D7A /* LandscapeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LandscapeTests-Info.plist"; sourceTree = "<group>"; };
+		B0D30881140672FC00B06D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0D30883140672FC00B06D7A /* LandscapeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandscapeTests.h; sourceTree = "<group>"; };
+		B0D30885140672FC00B06D7A /* LandscapeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandscapeTests.m; sourceTree = "<group>"; };
+		B0D3088F140676C500B06D7A /* PortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitViewController.h; sourceTree = "<group>"; };
+		B0D30890140676C500B06D7A /* PortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitViewController.m; sourceTree = "<group>"; };
+		B0D30891140676C500B06D7A /* PortraitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortraitViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0D3084E140672FC00B06D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D30856140672FC00B06D7A /* UIKit.framework in Frameworks */,
+				B0D30858140672FC00B06D7A /* Foundation.framework in Frameworks */,
+				B0D3085A140672FC00B06D7A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D30871140672FC00B06D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D30877140672FC00B06D7A /* SenTestingKit.framework in Frameworks */,
+				B0D30878140672FC00B06D7A /* UIKit.framework in Frameworks */,
+				B0D30879140672FC00B06D7A /* Foundation.framework in Frameworks */,
+				B0D3087A140672FC00B06D7A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0D30846140672FC00B06D7A = {
+			isa = PBXGroup;
+			children = (
+				B0D3085B140672FC00B06D7A /* Landscape */,
+				B0D3087D140672FC00B06D7A /* LandscapeTests */,
+				B0D30854140672FC00B06D7A /* Frameworks */,
+				B0D30852140672FC00B06D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0D30852140672FC00B06D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D30851140672FC00B06D7A /* Landscape.app */,
+				B0D30875140672FC00B06D7A /* LandscapeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D30854140672FC00B06D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0D30855140672FC00B06D7A /* UIKit.framework */,
+				B0D30857140672FC00B06D7A /* Foundation.framework */,
+				B0D30859140672FC00B06D7A /* CoreGraphics.framework */,
+				B0D30876140672FC00B06D7A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0D3085B140672FC00B06D7A /* Landscape */ = {
+			isa = PBXGroup;
+			children = (
+				B0D30864140672FC00B06D7A /* LandscapeAppDelegate.h */,
+				B0D30865140672FC00B06D7A /* LandscapeAppDelegate.m */,
+				B0D30867140672FC00B06D7A /* MainWindow.xib */,
+				B0D3086A140672FC00B06D7A /* LandscapeViewController.h */,
+				B0D3086B140672FC00B06D7A /* LandscapeViewController.m */,
+				B0D3086D140672FC00B06D7A /* LandscapeViewController.xib */,
+				B0D3085C140672FC00B06D7A /* Supporting Files */,
+				B0D3088F140676C500B06D7A /* PortraitViewController.h */,
+				B0D30890140676C500B06D7A /* PortraitViewController.m */,
+				B0D30891140676C500B06D7A /* PortraitViewController.xib */,
+			);
+			path = Landscape;
+			sourceTree = "<group>";
+		};
+		B0D3085C140672FC00B06D7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0D3085D140672FC00B06D7A /* Landscape-Info.plist */,
+				B0D3085E140672FC00B06D7A /* InfoPlist.strings */,
+				B0D30861140672FC00B06D7A /* main.m */,
+				B0D30863140672FC00B06D7A /* Landscape-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0D3087D140672FC00B06D7A /* LandscapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D30883140672FC00B06D7A /* LandscapeTests.h */,
+				B0D30885140672FC00B06D7A /* LandscapeTests.m */,
+				B0D3087E140672FC00B06D7A /* Supporting Files */,
+			);
+			path = LandscapeTests;
+			sourceTree = "<group>";
+		};
+		B0D3087E140672FC00B06D7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0D3087F140672FC00B06D7A /* LandscapeTests-Info.plist */,
+				B0D30880140672FC00B06D7A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0D30850140672FC00B06D7A /* Landscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D30889140672FC00B06D7A /* Build configuration list for PBXNativeTarget "Landscape" */;
+			buildPhases = (
+				B0D3084D140672FC00B06D7A /* Sources */,
+				B0D3084E140672FC00B06D7A /* Frameworks */,
+				B0D3084F140672FC00B06D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Landscape;
+			productName = Landscape;
+			productReference = B0D30851140672FC00B06D7A /* Landscape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0D30874140672FC00B06D7A /* LandscapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D3088C140672FC00B06D7A /* Build configuration list for PBXNativeTarget "LandscapeTests" */;
+			buildPhases = (
+				B0D30870140672FC00B06D7A /* Sources */,
+				B0D30871140672FC00B06D7A /* Frameworks */,
+				B0D30872140672FC00B06D7A /* Resources */,
+				B0D30873140672FC00B06D7A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0D3087C140672FC00B06D7A /* PBXTargetDependency */,
+			);
+			name = LandscapeTests;
+			productName = LandscapeTests;
+			productReference = B0D30875140672FC00B06D7A /* LandscapeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0D30848140672FC00B06D7A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B0D3084B140672FC00B06D7A /* Build configuration list for PBXProject "Landscape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0D30846140672FC00B06D7A;
+			productRefGroup = B0D30852140672FC00B06D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0D30850140672FC00B06D7A /* Landscape */,
+				B0D30874140672FC00B06D7A /* LandscapeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0D3084F140672FC00B06D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D30860140672FC00B06D7A /* InfoPlist.strings in Resources */,
+				B0D30869140672FC00B06D7A /* MainWindow.xib in Resources */,
+				B0D3086F140672FC00B06D7A /* LandscapeViewController.xib in Resources */,
+				B0D30893140676C500B06D7A /* PortraitViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D30872140672FC00B06D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D30882140672FC00B06D7A /* InfoPlist.strings in Resources */,
+				B0D30884140672FC00B06D7A /* LandscapeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0D30873140672FC00B06D7A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0D3084D140672FC00B06D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D30862140672FC00B06D7A /* main.m in Sources */,
+				B0D30866140672FC00B06D7A /* LandscapeAppDelegate.m in Sources */,
+				B0D3086C140672FC00B06D7A /* LandscapeViewController.m in Sources */,
+				B0D30892140676C500B06D7A /* PortraitViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D30870140672FC00B06D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D30886140672FC00B06D7A /* LandscapeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0D3087C140672FC00B06D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0D30850140672FC00B06D7A /* Landscape */;
+			targetProxy = B0D3087B140672FC00B06D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0D3085E140672FC00B06D7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D3085F140672FC00B06D7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0D30867140672FC00B06D7A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D30868140672FC00B06D7A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B0D3086D140672FC00B06D7A /* LandscapeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D3086E140672FC00B06D7A /* en */,
+			);
+			name = LandscapeViewController.xib;
+			sourceTree = "<group>";
+		};
+		B0D30880140672FC00B06D7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D30881140672FC00B06D7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0D30887140672FC00B06D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0D30888140672FC00B06D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0D3088A140672FC00B06D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Landscape/Landscape-Prefix.pch";
+				INFOPLIST_FILE = "Landscape/Landscape-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0D3088B140672FC00B06D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Landscape/Landscape-Prefix.pch";
+				INFOPLIST_FILE = "Landscape/Landscape-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B0D3088D140672FC00B06D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Landscape.app/Landscape";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Landscape/Landscape-Prefix.pch";
+				INFOPLIST_FILE = "LandscapeTests/LandscapeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B0D3088E140672FC00B06D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Landscape.app/Landscape";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Landscape/Landscape-Prefix.pch";
+				INFOPLIST_FILE = "LandscapeTests/LandscapeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0D3084B140672FC00B06D7A /* Build configuration list for PBXProject "Landscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D30887140672FC00B06D7A /* Debug */,
+				B0D30888140672FC00B06D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D30889140672FC00B06D7A /* Build configuration list for PBXNativeTarget "Landscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D3088A140672FC00B06D7A /* Debug */,
+				B0D3088B140672FC00B06D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0D3088C140672FC00B06D7A /* Build configuration list for PBXNativeTarget "LandscapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D3088D140672FC00B06D7A /* Debug */,
+				B0D3088E140672FC00B06D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0D30848140672FC00B06D7A /* Project object */;
+}
